@@ -20,6 +20,9 @@
 .text-center{
     text-align: center;
 }
+section{
+    margin-bottom: 80px;
+}
 /* Banner section Styles */
 .banner-section{
     background-image:url(images/banner_bg.png);
@@ -28,7 +31,7 @@
     background-size: cover;
     min-height: 80vh;
 }
-.banner-container{
+.small-container{
     width: 850px;
 }
 .main-title{
@@ -53,5 +56,44 @@
     display: inline-block;
     border-radius: 6px;
     margin-top: 30px;
+}
+.donate-btn:hover{
+    background-color: #cc4040;
+}
+/* Donate Today section */
+.donate-amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.sub-title{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.amount-text{
+    text-align: center;
+}
+.amount-box{
+    background: #f2f2f2;
+    padding: 38px 25px;
+    margin: 15px;
+    border-radius: 8px;
+}
+.amount-title{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+}
+.amount-box-container{
+    margin-top: 30px;
+}
+#active-box{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+#active-title{
+    color: #FF5959;
 }
