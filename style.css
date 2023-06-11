@@ -56,9 +56,12 @@ section{
     display: inline-block;
     border-radius: 6px;
     margin-top: 30px;
+    border: 1px solid #FF5959;
 }
 .donate-btn:hover{
     background-color: #cc4040;
+    border: 1px solid #cc4040;
+    
 }
 /* Donate Today section */
 .donate-amount{
