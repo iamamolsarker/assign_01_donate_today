@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #707070;
+}
+/* Universal Style */
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1300px;
+}
+.text-center{
+    text-align: center;
+}
+/* Banner section Styles */
+.banner-section{
+    background-image:url(images/banner_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.banner-container{
+    width: 850px;
+}
+.main-title{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+.text{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 650px;
+    margin: auto;
+}
+.donate-btn{
+    background-color: #FF5959;
+    padding: 15px 35px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
