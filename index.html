@@ -1,72 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Donate Today</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Banner Section Starts Here -->
     <section class="banner-section flex-container">
-        <div class="small-container text-center">
-            <h1 class="main-title">Let’s Help Those Who Are More In Need</h1>
-            <p class="text">Welcome to our nonprofit donation website, where every contribution makes a meaningful impact! We believe in the power of collective giving, and your support helps us bring positive change to the lives of those in need.</p>
-            <a href="" class="donate-btn">Donate Now</a>
-        </div>
+      <div class="small-container text-center">
+        <h1 class="main-title">Let’s Help Those Who Are More In Need</h1>
+        <p class="text">
+          Welcome to our nonprofit donation website, where every contribution
+          makes a meaningful impact! We believe in the power of collective
+          giving, and your support helps us bring positive change to the lives
+          of those in need.
+        </p>
+        <a href="" class="donate-btn">Donate Now</a>
+      </div>
     </section>
     <section class="donate-amount flex-column">
-        <div class="small-container">
-            <h2 class="sub-title">Donate Today</h2>
-            <p class="amount-text">Your donation has the power to transform lives. By contributing to our cause, you become an agent of change, empowering individuals and communities to break free from the cycle of poverty, injustice, and inequality.</p>
+      <div class="small-container">
+        <h2 class="sub-title">Donate Today</h2>
+        <p class="amount-text">
+          Your donation has the power to transform lives. By contributing to our
+          cause, you become an agent of change, empowering individuals and
+          communities to break free from the cycle of poverty, injustice, and
+          inequality.
+        </p>
+      </div>
+      <div class="flex-container amount-box-container">
+        <div class="amount-box">
+          <h3 class="amount-title">100tk</h3>
         </div>
-        <div class="flex-container amount-box-container">
-            <div class="amount-box">
-                <h3 class="amount-title">100tk</h3>
-            </div>
-            <div class="amount-box" id="active-box">
-                <h3 class="amount-title" id="active-title">200tk</h3>
-            </div>
-            <div class="amount-box">
-                <h3 class="amount-title">500tk</h3>
-            </div>
-            <div class="amount-box">
-                <h3 class="amount-title">1000tk</h3>
-            </div>
-            <div class="amount-box">
-                <h3 class="amount-title">5000tk</h3>
-            </div>
+        <div class="amount-box" id="active-box">
+          <h3 class="amount-title" id="active-title">200tk</h3>
         </div>
-        <div class="small-container flex-column">
-            <input type="text" name="" id="" placeholder="Other Amount (Taka)" class="custom-amount-field">
-            <button type="submit" class="donate-submit-btn donate-btn">Donate Now</button>
+        <div class="amount-box">
+          <h3 class="amount-title">500tk</h3>
         </div>
+        <div class="amount-box">
+          <h3 class="amount-title">1000tk</h3>
+        </div>
+        <div class="amount-box">
+          <h3 class="amount-title">5000tk</h3>
+        </div>
+      </div>
+      <div class="small-container flex-column">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Other Amount (Taka)"
+          class="custom-amount-field"
+        />
+        <button type="submit" class="donate-submit-btn donate-btn">
+          Donate Now
+        </button>
+      </div>
     </section>
     <section class="flex-column">
-        <div class="small-container">
-            <h2 class="sub-title">Our Donate Plan</h2>
-            <p class="amount-text">Your donation has the power to transform lives. By contributing to our cause, you become an agent of change, empowering individuals and communities to break free from the cycle of poverty, injustice, and inequality.</p>
+      <div class="small-container">
+        <h2 class="sub-title">Our Donate Plan</h2>
+        <p class="amount-text">
+          Your donation has the power to transform lives. By contributing to our
+          cause, you become an agent of change, empowering individuals and
+          communities to break free from the cycle of poverty, injustice, and
+          inequality.
+        </p>
+      </div>
+      <div class="flex-container container donate-plan-box">
+        <div class="third plan-1">
+          <img src="images/food.png" alt="" />
+          <h3 class="plan-title">Food for a family</h3>
+          <p class="plan-text">
+            Together, we can build stronger, more resilient communities. By
+            supporting our organization, you become part of a larger movement
+            dedicated to fostering social cohesion, promoting inclusivity
+          </p>
         </div>
-        <div class="flex-container container donate-plan-box">
-            <div class="third plan-1">
-                <img src="images/food.png" alt="">
-                <h3 class="plan-title">Food for a family</h3>
-                <p class="plan-text">Together, we can build stronger, more resilient communities. By supporting our organization, you become part of a larger movement dedicated to fostering social cohesion, promoting inclusivity</p>
-            </div>
-            <div class="third plan-2">
-                <img src="images/family.png" alt="">
-                <h3 class="plan-title">Shelter for a family</h3>
-                <p class="plan-text">We take transparency seriously. We believe in being accountable to our donors, which is why we ensure that every dollar you contribute is utilized efficiently and effectively.</p>
-            </div>
-            <div class="third plan-3">
-                <img src="images/education.png" alt="">
-                <h3 class="plan-title">Education for a child</h3>
-                <p class="plan-text">Your generosity goes a long way. Whether it's providing education to underprivileged children, supporting healthcare initiatives, or addressing environmental challenges</p>
-            </div>
+        <div class="third plan-2">
+          <img src="images/family.png" alt="" />
+          <h3 class="plan-title">Shelter for a family</h3>
+          <p class="plan-text">
+            We take transparency seriously. We believe in being accountable to
+            our donors, which is why we ensure that every dollar you contribute
+            is utilized efficiently and effectively.
+          </p>
         </div>
+        <div class="third plan-3">
+          <img src="images/education.png" alt="" />
+          <h3 class="plan-title">Education for a child</h3>
+          <p class="plan-text">
+            Your generosity goes a long way. Whether it's providing education to
+            underprivileged children, supporting healthcare initiatives, or
+            addressing environmental challenges
+          </p>
+        </div>
+      </div>
     </section>
-</body>
+    <section class="achievement">
+        <h2 class="sub-title">Our Achievements</h2>
+      <div class="flex-container">
+        <div class="achievement-container flex-container container">
+          <div class="achievement-item flex-container">
+            <h2>35</h2>
+            <p>Years of foundation</p>
+          </div>
+          <div class="achievement-item flex-container">
+            <h2>60+</h2>
+            <p>monthly donors</p>
+          </div>
+          <div class="achievement-item flex-container">
+            <h2>1.5K</h2>
+            <p>Incredible Volunteers</p>
+          </div>
+          <div class="achievement-item flex-container">
+            <h2>785</h2>
+            <p>Successful campaigns</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
 </html>

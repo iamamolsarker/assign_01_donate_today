@@ -144,3 +144,25 @@ section{
     font-size: 24px;
     
 }
+/* achievement  styles */
+.achievement-container{
+    box-shadow: 0 5px  20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 60px 40px;
+}
+.achievement-item{
+    margin: 0 20px;
+}
+.achievement-item > h2{
+    margin: 0 15px;
+    color: #FF5959;
+    font-size: 45px;
+    font-weight: 600;
+}
+.achievement-item > p{
+    color: #121212;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
