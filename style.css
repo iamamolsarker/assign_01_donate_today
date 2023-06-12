@@ -120,6 +120,7 @@ section{
     color: #B3B3B3;
     text-align: center;
 }
+/* Donate Planning styles */
 .third{
     width: 33.33%;
     padding: 55px 20px;
@@ -178,12 +179,18 @@ section{
     border: 1px solid  #FF5959;
     background-color: #FF5959;
     color: #fff;
-    font-size: 20px;
-    padding: 17px;
+    font-size: 16px;
+    padding: 20px;
     border-radius: 10px;
 }
 .news-box{
     padding: 75px;
     background:rgba(255, 89, 89, 0.1);
     border-radius: 10px;
+}
+/* footer */
+footer{
+    background-color: #0B0D17;
+    padding: 60px 20px;
+    margin: 0;
 }
